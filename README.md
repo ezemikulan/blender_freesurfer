@@ -1,2 +1,2 @@
-# blender_freesurfer
+# Blender Freesurfer
 Edition of freesurfer surfaces in Blender 
