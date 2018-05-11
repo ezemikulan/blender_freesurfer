@@ -47,11 +47,14 @@ We will import the surfaces in Blender, make the changes we need and then export
 ![alt text](images/2_blender_import_obj_options.png "Import .obj options")
 
 * Repeat for all surfaces you want to import (e.g. inner_skull and outer_skull)
-* Zoom out using the mouse wheel
+
+* Zoom out using the mouse wheel:
 
 * Click on the plus sign on the top left corner of the 3D view :
+![alt text](images/3_blender_zoom_out_grid_options.png "Open grid options")
 
 * Go to Display and set scale to 10. You can also make the grid invisible by unchecking *Grid Floor*:
+![alt text](images/4_grid_options.png "Grid options")
 
    You can toggle the visibility of an object from the Outliner panel :
 
