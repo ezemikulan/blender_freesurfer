@@ -29,8 +29,10 @@ The script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob
 2. Path to freesurfer's subjects directory
 3. Path to the directory where Brainder's functions are located
 
+To run the script, go the folder where it is located and excecute the following:
+
 ```console
-foo@bar:~$ to_blender.sh subj_name /path/to/freesurfer/subjects/directory /path/to/Brainder/functions
+foo@bar:~$ ./to_blender.sh subj_name /path/to/freesurfer/subjects/directory /path/to/Brainder/functions
 ```
 
 It will create a folder named *conv*, which will contain:
