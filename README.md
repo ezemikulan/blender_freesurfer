@@ -22,7 +22,7 @@ Please refer to each package's website for specific instructions.
 
 
 ### 1 & 2. From freesurfer to .obj
-We will transform the surfaces to .obj so that they can be imported in Blender. In order to do this we will use Brainder's conversion functions. First we have to go from freesurfer to ascii and then from ascii to .obj format. This can be done manually (e.g. entering the commands in a terminal) or using the bash script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh), which will do the conversion for all the surfaces created by [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html)). For instructions on how to do it manually see [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/). If you do it manually, make sure to create a backup of the original freesurfer surfaces.
+We will transform the surfaces to .obj so that they can be imported in Blender. In order to do this we will use [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/) conversion functions. First we have to go from freesurfer to ascii and then from ascii to .obj format. This can be done manually (e.g. entering the commands in a terminal) or using the bash script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh), which will do the conversion for all the surfaces created by [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html)). For instructions on how to do it manually see [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/). If you do it manually, make sure to create a backup of the original freesurfer surfaces.
 
 The script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) takes 3 arguments:
 1. Subjects name in freesurfer's subjects directory
@@ -70,7 +70,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
 ![alt text](images/6_blender_select_part.png "Edit mode")
 
-8. Right click one of the vertices that you want to correct in order to deselect all and select a single vertex.
+8. in *Edit mode*, right click one of the vertices that you want to correct in order to deselect all and select a single vertex.
 
 9. Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 
