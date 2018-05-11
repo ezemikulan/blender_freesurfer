@@ -20,7 +20,8 @@ Sometimes when creating a BEM model the surfaces need manual correction because 
 #### Installation
 Please refer to each package's website for specific instructions.
 
-#### 1 & 2. From freesurfer to .obj
+
+### 1 & 2. From freesurfer to .obj
 We will transform the surfaces to .obj so that they can be imported in Blender. In order to do this we will use Brainder's conversion functions. First we have to go from freesurfer to ascii and then from ascii to .obj format. This can be done manually (e.g. entering the commands in a terminal) or using the bash script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh), which will do the conversion for all the surfaces created by [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html)). For instructions on how to do it manually see [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/). If you do it manually, make sure to create a backup of the original freesurfer surfaces.
 
 The script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) takes 3 arguments:
@@ -37,7 +38,7 @@ It will create a folder named *conv*, which will contain:
 2. Surfaces in ascii format
 3. Surfaces in .obj format
 
-#### 3. Edit in blender
+### 3. Edit in blender
 We will import the surfaces in Blender, make the changes we need and then export the new mesh in .obj format.
 
 1. Open blender.
