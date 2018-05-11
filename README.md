@@ -38,10 +38,10 @@ It will create a folder named *conv*, which will contain:
 * Surfaces in ascii format
 * Surfaces in .obj format
 
-### 3. Edit in blender
+### 3. Edit in Blender
 We will import the surfaces in Blender, make the changes we need, and then export the new mesh in .obj format.
 
-1. Open blender.
+1. Open Blender.
 
 2. Go to *File > Import > Wavefront (.obj)*. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
 
