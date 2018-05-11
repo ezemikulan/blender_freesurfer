@@ -12,7 +12,7 @@ Sometimes when creating a BEM model the surfaces need manual correction because 
 
 #### What do you need?
 * [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)
-* Surfaces (e.g. [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html))
+* Surfaces (e.g. from [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html))
 * [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/) conversion functions ([srf2obj]() and [obj2srf]())
 * [Blender](https://www.blender.org/)
 * (Using a mouse will make the edition in Blender easier)
