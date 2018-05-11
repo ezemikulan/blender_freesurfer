@@ -43,7 +43,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
 1. Open Blender.
 
-2. Go to *File > Import > Wavefront (.obj)*. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
+2. Go to *File > Import > Wavefront (.obj)*. Navigate to the *conv* folder and select the file you want to import. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
 
 ![alt text](images/1_blender_import_obj.png "Import .obj")
 ![alt text](images/2_blender_import_obj_options.png "Import .obj options")
