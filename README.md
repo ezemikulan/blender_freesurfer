@@ -21,7 +21,7 @@ Sometimes when creating a BEM model the surfaces need manual correction because 
 Please refer to each package's website for specific instructions.
 
 
-### 1 & 2. From freesurfer to .obj
+## 1 & 2. From freesurfer to .obj
 We will transform the surfaces to .obj so that they can be imported in Blender. In order to do this we will use [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/) conversion functions. First we have to go from freesurfer to ascii and then from ascii to .obj format. This can be done manually (e.g. entering the commands in a terminal) or using the bash script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh), which will do the conversion for all the surfaces created by [mne.bem.make_watershed_bem](https://mne-tools.github.io/stable/generated/mne.bem.make_watershed_bem.html)). For instructions on how to do it manually see [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/). If you do it manually, make sure to create a backup of the original freesurfer surfaces.
 
 The script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) takes 3 arguments:
@@ -38,7 +38,7 @@ It will create a folder named *conv*, which will contain:
 * Surfaces in ascii format
 * Surfaces in .obj format
 
-### 3. Edit in Blender
+## 3. Edit in Blender
 We will import the surfaces in Blender, make the changes we need, and then export the new mesh in .obj format.
 
 1. Open Blender.
@@ -89,7 +89,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
    Make sure to have the *Selecttion Only* and *Keep Vertex Order* options turned on.
 
-### 4 & 5. From .obj to freesurfer
+## 4 & 5. From .obj to freesurfer
 We will finally convert the edited meshes to freesurfer format. First we will go from .obj to ascii and then from ascii to freesurfer surface. Again, you can do this manually, or use the script [from_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/from_blender.sh). The script takes the same input parameters as [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh). It will create a freesurfer surface that will end in *_edit*. Then you can manually copy the file to the watershed folder (where the original files were located) and rename it as the original files. This step is done manually because it implies overwriting the original surface (or having a new file that has the same name as the original) and therefore is better to do it when you are sure. Recall that [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) created backups of the original files so you can restore them when you want.
 
 That's it. You are ready to continue with your analysis pipeline (e.g. running [mne.make_bem_model](https://mne-tools.github.io/stable/generated/mne.make_bem_model.html#mne.make_bem_model))
