@@ -57,11 +57,11 @@ We will import the surfaces in Blender, make the changes we need and then export
 
 * Go to Display and set scale to 10. You can also make the grid invisible by unchecking *Grid Floor*:
 
-![alt text](images/4_blender_grid_options.png "Grid options")
+   ![alt text](images/4_blender_grid_options.png "Grid options")
 
    You can toggle the visibility of an object from the Outliner panel :
 
-![alt text](images/5_blender_outliner.png "Outliner")
+   ![alt text](images/5_blender_outliner.png "Outliner")
 
    To rotate the view click the mouse wheel and drag.
 
