@@ -38,6 +38,12 @@ It will create a folder named *conv*, which will contain:
 * Surfaces in ascii format
 * Surfaces in .obj format
 
+NOTE: you might need to give excecution permission to the scripts in order to be able to run them:
+
+```console
+foo@bar:~$ chmod +x to_blender.sh
+```
+
 ## 3. Edit in Blender
 We will import the surfaces in Blender, make the changes we need, and then export the new mesh in .obj format.
 
