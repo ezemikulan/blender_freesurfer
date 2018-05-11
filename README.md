@@ -34,9 +34,9 @@ foo@bar:~$ to_blender.sh subj_name /path/to/freesurfer/subjects/directory /path/
 ```
 
 It will create a folder named *conv*, which will contain:
-1. A backup of the original surfaces
-2. Surfaces in ascii format
-3. Surfaces in .obj format
+* Backups of the original surfaces
+* Surfaces in ascii format
+* Surfaces in .obj format
 
 ### 3. Edit in blender
 We will import the surfaces in Blender, make the changes we need and then export the new mesh in .obj format.
@@ -74,7 +74,7 @@ We will import the surfaces in Blender, make the changes we need and then export
 
 9. Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 
-10. Use the left click to select the area to edit:
+10. Use the left click to select the area to edit. You can click multiple times or click and drag:
 
 ![alt text](images/7_blender_circle_select_with_outer.png "Select with outer")
 ![alt text](images/8_blender_circle_select_without_outer.png "Select without outer")
