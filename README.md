@@ -84,7 +84,7 @@ We will import the surfaces in Blender, make the changes we need and then export
 
 * Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
 
-![alt text](images/10_blender_export_options.png "Export options")
+   ![alt text](images/10_blender_export_options.png "Export options")
 
    Make sure to have the *Selecttion Only* and *Keep Vertex Order* options turned on.
 
@@ -92,5 +92,3 @@ We will import the surfaces in Blender, make the changes we need and then export
 We will finally convert the edited meshes to freesurfer format. First we will go from .obj to ascii and then from ascii to freesurfer surface. Again, you can do this manually, or use the script [from_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/from_blender.sh). The script takes the same input parameters as to_blender.sh. It will create a freesurfer surface that will end in *_edit*. Then you can manually copy the file to the watershed folder (where the original files were located) and rename it as the original files. This step is done manually because it implies overwriting the original surface (or having a new file that has the same name as the original) and therefore is better to do it when you are sure. Recall that [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) created backups of the original files so you can restore them when you want.
 
 That's it. You are ready to continue with your analysis pipeline (e.g. running [mne.make_bem_model](https://mne-tools.github.io/stable/generated/mne.make_bem_model.html#mne.make_bem_model))
-
-THE END
