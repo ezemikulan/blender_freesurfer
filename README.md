@@ -39,7 +39,7 @@ It will create a folder named *conv*, which will contain:
 * Surfaces in .obj format
 
 ### 3. Edit in blender
-We will import the surfaces in Blender, make the changes we need and then export the new mesh in .obj format.
+We will import the surfaces in Blender, make the changes we need, and then export the new mesh in .obj format.
 
 1. Open blender.
 
@@ -66,11 +66,11 @@ We will import the surfaces in Blender, make the changes we need and then export
 
    To rotate the view click the mouse wheel and drag.
 
-7. Find the part you need to edit. It is useful to go to the Edit mode and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
+7. Find the vertices you need to edit. It is useful to go to the Edit mode and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
 
 ![alt text](images/6_blender_select_part.png "Edit mode")
 
-8. Right click somewhere on the part to correct in order to deselect all and select a single vertex.
+8. Right click one of the vertices that you want to correct in order to deselect all and select a single vertex.
 
 9. Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 
