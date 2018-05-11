@@ -91,7 +91,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
 ![alt text](images/9_blender_edited_surface.png "Edited mesh")
 
-12. Select the mesh in the *Outliner* panel (if it is not already selected). Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows and export :
+12. Select the mesh in the *Outliner* panel (if it is not already selected). Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the .obj file's original name (e.g. *subj_name_inner_skull_surface.obj -> subj_name_inner_skull_surface_edit.obj*). Set the options as follows and export :
 
    ![alt text](images/10_blender_export_options.png "Export options")
 
