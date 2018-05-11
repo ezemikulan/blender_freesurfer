@@ -83,7 +83,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
 ![alt text](images/9_blender_edited_surface.png "Edited mesh")
 
-12. Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
+12. Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows and export :
 
    ![alt text](images/10_blender_export_options.png "Export options")
 
