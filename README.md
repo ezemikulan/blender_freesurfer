@@ -27,7 +27,7 @@ We will transform the surfaces to .obj so that they can be imported in Blender. 
 The script [to_blender.sh](https://github.com/ezemikulan/blender_freesurfer/blob/master/to_blender.sh) takes 3 arguments:
 1. Subjects name in freesurfer's subjects directory
 2. Path to freesurfer's subjects directory
-3. Path to the directory where Brainder's functions are located
+3. Path to the directory where [Brainder's](https://brainder.org/2012/05/08/importing-freesurfer-cortical-meshes-into-blender/) functions are located
 
 To run the script, open a Terminal, go the folder where it is located, and excecute the following:
 
