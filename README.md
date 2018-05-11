@@ -87,7 +87,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 ![alt text](images/7_blender_circle_select_with_outer.png "Select with outer")
 ![alt text](images/8_blender_circle_select_without_outer.png "Select without outer")
 
-11. Rotate the view to a good angle and use the arrows to edit the position of the selected vertices. There are many other ways to perform the corrections (see for example [Loop Tools](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools) or [Face Tools](https://docs.blender.org/manual/en/dev/modeling/meshes/editing/faces.html)):
+11. Rotate the view to a good angle and use the arrows to edit the position of the selected vertices. There are many other (and more advanced) ways to perform the corrections (see for example [Loop Tools](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools) or [Face Tools](https://docs.blender.org/manual/en/dev/modeling/meshes/editing/faces.html)):
 
 ![alt text](images/9_blender_edited_surface.png "Edited mesh")
 
