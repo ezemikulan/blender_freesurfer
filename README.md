@@ -5,10 +5,10 @@ Sometimes when creating a BEM model the surfaces need manual correction because 
 
 #### Steps
 1. Convert surfaces from freesurfer format to ascii
-* Convert from ascii to .obj format
-* Edit in Blender
-* Convert from .obj to ascii
-* Convert from ascii to freesurfer format
+2. Convert from ascii to .obj format
+3. Edit in Blender
+4. Convert from .obj to ascii
+5. Convert from ascii to freesurfer format
 
 #### What do you need?
 * [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)
@@ -61,27 +61,29 @@ We will import the surfaces in Blender, make the changes we need and then export
 
    You can toggle the visibility of an object from the Outliner panel :
 
+![alt text](images/5_blender_outliner.png "Outliner")
+
    To rotate the view click the mouse wheel and drag.
 
 * Find the part you need to edit. It is useful to go to the Edit mode and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
 
-![alt text](images/5_blender_select_part.png "Edit mode")
+![alt text](images/6_blender_select_part.png "Edit mode")
 
 * Right click somewhere on the part to correct in order to deselect all and select a single vertex.
 
 * Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 * Use the left click to select the area to edit:
 
-![alt text](images/6_circle_select_with_outer.png "Select with outer")
-![alt text](images/7_circle_select_without_outer.png "Select without outer")
+![alt text](images/7_circle_select_with_outer.png "Select with outer")
+![alt text](images/8_circle_select_without_outer.png "Select without outer")
 
 * Rotate the view to a good angle and use the arrows to edit the position of the selected vertices :
 
-![alt text](images/8_blender_edited_surface.png "Edited mesh")
+![alt text](images/9_blender_edited_surface.png "Edited mesh")
 
 * Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
 
-![alt text](images/9_blender_export_options.png "Export options")
+![alt text](images/910_blender_export_options.png "Export options")
 
    Make sure to have the *Selecttion Only* and *Keep Vertex Order* options turned on.
 
