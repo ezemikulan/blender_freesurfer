@@ -43,20 +43,20 @@ We will import the surfaces in Blender, make the changes we need and then export
 
 1. Open blender.
 
-* Go to *File > Import > Wavefront (.obj)*. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
+2. Go to *File > Import > Wavefront (.obj)*. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
 
 ![alt text](images/1_blender_import_obj.png "Import .obj")
 ![alt text](images/2_blender_import_obj_options.png "Import .obj options")
 
-* Repeat for all surfaces you want to import (e.g. inner_skull and outer_skull)
+3. Repeat for all surfaces you want to import (e.g. inner_skull and outer_skull)
 
-* Zoom out using the mouse wheel:
+4. Zoom out using the mouse wheel:
 
-* Click on the plus sign on the top right corner of the 3D view :
+5. Click on the plus sign on the top right corner of the 3D view :
 
 ![alt text](images/3_blender_zoom_out_grid_options.png "Open grid options")
 
-* Go to Display and set scale to 10. You can also make the grid invisible by unchecking *Grid Floor*:
+6. Go to Display and set scale to 10. You can also make the grid invisible by unchecking *Grid Floor*:
 
    ![alt text](images/4_blender_grid_options.png "Grid options")
 
@@ -66,23 +66,24 @@ We will import the surfaces in Blender, make the changes we need and then export
 
    To rotate the view click the mouse wheel and drag.
 
-* Find the part you need to edit. It is useful to go to the Edit mode and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
+7. Find the part you need to edit. It is useful to go to the Edit mode and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
 
 ![alt text](images/6_blender_select_part.png "Edit mode")
 
-* Right click somewhere on the part to correct in order to deselect all and select a single vertex.
+8. Right click somewhere on the part to correct in order to deselect all and select a single vertex.
 
-* Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
-* Use the left click to select the area to edit:
+9. Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
+
+10. Use the left click to select the area to edit:
 
 ![alt text](images/7_blender_circle_select_with_outer.png "Select with outer")
 ![alt text](images/8_blender_circle_select_without_outer.png "Select without outer")
 
-* Rotate the view to a good angle and use the arrows to edit the position of the selected vertices :
+11. Rotate the view to a good angle and use the arrows to edit the position of the selected vertices :
 
 ![alt text](images/9_blender_edited_surface.png "Edited mesh")
 
-* Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
+12. Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
 
    ![alt text](images/10_blender_export_options.png "Export options")
 
