@@ -1,5 +1,5 @@
 # Blender and Freesurfer
-### Editing freesurfer sufaces in Blender for BEM modeling
+### Editing freesurfer surfaces in Blender for BEM modeling
 
 Sometimes when creating a BEM model the surfaces need manual correction because of a series of problems that can arise (e.g. intersection between surfaces). Here, we will see how this can be achieved in Blender.
 
