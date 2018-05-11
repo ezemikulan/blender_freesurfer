@@ -74,7 +74,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
 9. Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 
-10. Use the left click to select the area to edit. You can click multiple times or click and drag:
+10. Use the left click to select the vertices you want to edit. You can click multiple times or click and drag:
 
 ![alt text](images/7_blender_circle_select_with_outer.png "Select with outer")
 ![alt text](images/8_blender_circle_select_without_outer.png "Select without outer")
