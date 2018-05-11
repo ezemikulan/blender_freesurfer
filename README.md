@@ -43,6 +43,8 @@ We will import the surfaces in Blender, make the changes we need and then export
 1. Open blender.
 
 * Go to *File > Import > Wavefront (.obj)*. Make sure to select the *Keep Vert Order* option. You can also select the *Y Forward* option to load the axis in the correct direction (RAS):
+![alt text](images/1_blender_import_obj.png "Import .obj")
+![alt text](images/2_blender_import_obj_options.png "Import .obj options")
 
 * Repeat for all surfaces you want to import (e.g. inner_skull and outer_skull)
 * Zoom out using the mouse wheel
