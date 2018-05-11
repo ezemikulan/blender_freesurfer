@@ -13,14 +13,18 @@ surfs=(brain inner_skull outer_skull outer_skin)
 
 for s in "${surfs[@]}"
 do
-	surf_edit=${subj}_${s}_surface_edit
+	surf_ori=${subj}_${s}_surface
+	surf_edit=${surf_ori}_edit
 
 	if [ -f ${dir_conv}/${surf_edit}.obj ]; then
 		echo "Converting file ${surf_edit}"
 		${fx_dir}/obj2srf ${dir_conv}/${surf_edit}.obj > ${dir_conv}/${surf_edit}.asc  # convert to ascii
 		mris_convert ${dir_conv}/${surf_edit}.asc ${dir_conv}/${surf_edit} # convert to freesurfer surface
+		
+		# copy the new surface to the watershed folder and rename as the original
+		# cp ${dir_conv}/${surf_edit} ${dir_bem}/${surf_ori}
 	fi
 done
 
-# copy the new surface to the watershed folder and rename as the original
+
 
