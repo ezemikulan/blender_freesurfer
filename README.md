@@ -75,8 +75,8 @@ We will import the surfaces in Blender, make the changes we need and then export
 * Press the *C* key to activate the *Circle Select* tool (or *B* for *Box Select*). You can enlarge the area using the mouse wheel.
 * Use the left click to select the area to edit:
 
-![alt text](images/7_circle_select_with_outer.png "Select with outer")
-![alt text](images/8_circle_select_without_outer.png "Select without outer")
+![alt text](images/7_blender_circle_select_with_outer.png "Select with outer")
+![alt text](images/8_blender_circle_select_without_outer.png "Select without outer")
 
 * Rotate the view to a good angle and use the arrows to edit the position of the selected vertices :
 
@@ -84,7 +84,7 @@ We will import the surfaces in Blender, make the changes we need and then export
 
 * Select the whole surface in the *Outliner* panel. Go to *File > Export > Wavefront (.obj)*. Navigate to the *conv* folder. Add *_edit* to the surface's original name. Set the options as follows :
 
-![alt text](images/910_blender_export_options.png "Export options")
+![alt text](images/10_blender_export_options.png "Export options")
 
    Make sure to have the *Selecttion Only* and *Keep Vertex Order* options turned on.
 
