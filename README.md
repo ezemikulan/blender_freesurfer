@@ -35,7 +35,7 @@ To run the script, open a Terminal, go the folder where it is located, and excec
 foo@bar:~$ ./to_blender.sh subj_name /path/to/freesurfer/subjects/directory /path/to/Brainder/functions
 ```
 
-It will create a folder named *conv*, which will contain:
+It will create a folder named *conv* inside the *bem/watershed* folder of the freesurfer subject, which will contain:
 * Backups of the original surfaces
 * Surfaces in ascii format
 * Surfaces in .obj format
