@@ -74,7 +74,7 @@ We will import the surfaces in Blender, make the changes we need, and then expor
 
    To rotate the view click the mouse wheel and drag.
 
-7. Find the vertices you need to edit. It is useful to go to the *Edit Mode* and select the inner surface. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
+7. Find the vertices you need to edit. It is useful to select the inner surface and go to the *Edit Mode*. This will highlight all the vertices and edges of the inner surface. If there are vertices that are outside of the outer surface you should be able to see them:
 
 ![alt text](images/6_blender_select_part.png "Edit mode")
 
